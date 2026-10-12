@@ -58,13 +58,6 @@ cd movie-explorer
 npm install
 ```
 
-### 4. Configure the TMDb API key
-
-Create a `.env` file in the project root and add:
-
-```env
-VITE_TMDB_API_KEY=9abead8d0154d26299485672e7cc6ee0
-```
 
 
 
