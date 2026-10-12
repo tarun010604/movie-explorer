@@ -52,3 +52,4 @@ This product uses the TMDB API but is not endorsed or certified by TMDB.
 
 - **Live Demo:** Add your Vercel URL here.
 - **GitLab Repository:** Add your GitLab URL here.
+
