@@ -10,6 +10,10 @@ https://jovial-meerkat-77b6af.netlify.app/
 
 https://gitlab.com/tarun-mr-projects/movie-explorer
 
+## 📂 GitHub Repository
+
+https://github.com/tarun010604/movie-explorer
+
 ## ✨ Features
 
 - Browse trending movies.
@@ -38,40 +42,6 @@ https://gitlab.com/tarun-mr-projects/movie-explorer
 - Git and GitLab
 - Netlify
 
-## ⚙️ Run Locally
-
-### 1. Clone the repository
-
-```bash
-git clone https://gitlab.com/tarun-mr-projects/movie-explorer.git
-```
-
-### 2. Navigate to the project folder
-
-```bash
-cd movie-explorer
-```
-
-### 3. Install dependencies
-
-```bash
-npm install
-```
-
-
-
-
-### 5. Start the development server
-
-```bash
-npm run dev
-```
-
-### 6. Build for production
-
-```bash
-npm run build
-```
 
 ## 🔑 API
 
