@@ -1,55 +1,93 @@
+# 🎬 Movie Explorer
 
-# Movie Explorer
+A responsive movie discovery application built using React and the TMDb API. Browse trending movies, search for movies, view detailed information, and save your favorite movies.
 
-A responsive movie discovery application built using React and The Movie Database (TMDb) API.
+## 🌐 Live Demo
 
-## Features
+https://jovial-meerkat-77b6af.netlify.app/
 
-- Trending movies
-- Search movies by title
-- Movie posters, ratings and release dates
-- Movie details, genres and trailer links
-- Favorites saved in localStorage
-- Last search saved in localStorage
-- Genre filtering
-- Light and dark themes
-- Responsive layout
-- Load More pagination
-- Demonstration login form
+## 📂 GitLab Repository
 
-## Technologies
+https://gitlab.com/tarun-mr-projects/movie-explorer
 
-- React
-- Vite
-- Material UI
-- Axios
+## ✨ Features
+
+- Browse trending movies.
+- Search movies by title.
+- View movie details, ratings, genres, and overviews.
+- View available trailers on YouTube.
+- Add and remove favorite movies.
+- Filter movies by genre.
+- Toggle between light and dark modes.
+- Demo login page.
+- Responsive user interface.
+- Load more movies.
+- Save favorites and preferences using local storage.
+- Display error messages when API requests fail.
+
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript
+- Material UI (MUI)
 - React Router
-- React Context API
+- Axios
 - TMDb API
-- JavaScript and CSS
+- HTML5 and CSS3
+- Vite
+- Git and GitLab
+- Netlify
 
-## Installation
+## ⚙️ Run Locally
 
-1. Install Node.js.
-2. Clone this repository.
-3. Run `npm install`.
-4. Create `.env` in the project root.
-5. Add `VITE_TMDB_API_KEY=your_actual_api_key`.
-6. Run `npm run dev`.
-7. Open the local URL displayed in your terminal.
+### 1. Clone the repository
 
-## Production Build
+```bash
+git clone https://gitlab.com/tarun-mr-projects/movie-explorer.git
+```
 
-Run `npm run build`.
+### 2. Navigate to the project folder
 
-## API
+```bash
+cd movie-explorer
+```
 
-This project uses TMDb for movie data. Obtain your own API credentials and follow the TMDb terms of use.
+### 3. Install dependencies
 
-This product uses the TMDB API but is not endorsed or certified by TMDB.
+```bash
+npm install
+```
 
-## Deployment
+### 4. Configure the TMDb API key
 
-- **Live Demo:** Add your Vercel URL here.
-- **GitLab Repository:** Add your GitLab URL here.
+Create a `.env` file in the project root and add:
 
+```env
+VITE_TMDB_API_KEY=9abead8d0154d26299485672e7cc6ee0
+```
+
+
+
+### 5. Start the development server
+
+```bash
+npm run dev
+```
+
+### 6. Build for production
+
+```bash
+npm run build
+```
+
+## 🔑 API
+
+Movie information is provided by [The Movie Database (TMDb)](https://www.themoviedb.org/).
+
+This product uses the TMDb API but is not endorsed or certified by TMDb.
+
+## 👨‍💻 Author
+
+Tarun M R
+
+**Project:** Movie Explorer
